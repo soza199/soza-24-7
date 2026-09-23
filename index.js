@@ -8,7 +8,8 @@ const keepAlive = require("./server.js");
 keepAlive();
 
 const SERVER_INVITE_URL = "https://discord.com/invite/CvbBtrpCc4";
-const APPLICATION_ID = process.env["APPLICATION_ID"];
+// The environment variable can override this value when configured in Replit.
+const APPLICATION_ID = process.env["APPLICATION_ID"] || "104450756649373696";
 
 client.on("ready", async () => {
   console.clear();
