@@ -10,7 +10,8 @@ keepAlive();
 const SERVER_INVITE_URL = "https://discord.com/invite/CvbBtrpCc4";
 // The environment variable can override this value when configured in Replit.
 const APPLICATION_ID = process.env["APPLICATION_ID"] || "104450756649373696";
-const ACTIVITY_YEARS_AGO = 3000;
+// Discord presence timestamps must stay after the Unix epoch (1970).
+const ACTIVITY_YEARS_AGO = 50;
 const ACTIVITY_STARTED_AT =
   Date.now() - ACTIVITY_YEARS_AGO * 365.2425 * 24 * 60 * 60 * 1000;
 
