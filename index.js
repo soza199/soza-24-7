@@ -10,6 +10,9 @@ keepAlive();
 const SERVER_INVITE_URL = "https://discord.com/invite/CvbBtrpCc4";
 // The environment variable can override this value when configured in Replit.
 const APPLICATION_ID = process.env["APPLICATION_ID"] || "104450756649373696";
+const ACTIVITY_YEARS_AGO = 3000;
+const ACTIVITY_STARTED_AT =
+  Date.now() - ACTIVITY_YEARS_AGO * 365.2425 * 24 * 60 * 60 * 1000;
 
 client.on("ready", async () => {
   console.clear();
@@ -26,6 +29,7 @@ client.on("ready", async () => {
     .setApplicationId("1044509756649373696")
     .setType("PLAYING")
     .setName("INCHEON CORNER")
+    .setStartTimestamp(ACTIVITY_STARTED_AT)
     .setAssetsLargeImage("https://cdn.discordapp.com/attachments/1381140647322583195/1552388329620897822/download.webp?ex=6ab56dcb&is=6ab41c4b&hm=a88f8592b26b0648f3b61e6b66e383e352f91c3cc72ec7d11c6a18c10e766e2a&")
     .addButton("Join Server", "https://discord.gg/CvbBtrpCc4");
           
