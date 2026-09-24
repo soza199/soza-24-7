@@ -32,7 +32,8 @@ client.on("ready", async () => {
     .setName("INCHEON CORNER")
     .setStartTimestamp(ACTIVITY_STARTED_AT)
     .setAssetsLargeImage("https://cdn.discordapp.com/attachments/1381140647322583195/1552517992372371536/IMG-20260705-WA0110.jpg?ex=6ab5e68d&is=6ab4950d&hm=9741eb089b871fb4f1514b3da53b62e09c52e1366f7a76eb8a0ca856613d841f&")
-    .addButton("Join Server", "https://discord.gg/CvbBtrpCc4");
+    .addButton("Join Server", "https://discord.gg/CvbBtrpCc4")
+    .setAssetsSmallText("Join Server Anti Circle↴");
           
   client.user.setActivity(r);
 });
