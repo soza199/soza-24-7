@@ -31,7 +31,7 @@ client.on("ready", async () => {
     .setType("PLAYING")
     .setName("INCHEON CORNER")
     .setStartTimestamp(ACTIVITY_STARTED_AT)
-    .setAssetsLargeImage("https://cdn.discordapp.com/attachments/1381140647322583195/1552388329620897822/download.webp?ex=6ab56dcb&is=6ab41c4b&hm=a88f8592b26b0648f3b61e6b66e383e352f91c3cc72ec7d11c6a18c10e766e2a&")
+    .setAssetsLargeImage("https://cdn.discordapp.com/attachments/1381140647322583195/1552517992372371536/IMG-20260705-WA0110.jpg?ex=6ab5e68d&is=6ab4950d&hm=9741eb089b871fb4f1514b3da53b62e09c52e1366f7a76eb8a0ca856613d841f&")
     .addButton("Join Server", "https://discord.gg/CvbBtrpCc4");
           
   client.user.setActivity(r);
