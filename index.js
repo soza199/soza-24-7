@@ -32,7 +32,7 @@ client.on("ready", async () => {
     .setName("INCHEON CORNER")
     .setDetails("Join Server Anti Circle↴")
     .setStartTimestamp(ACTIVITY_STARTED_AT)
-    .setAssetsLargeImage("https://s15.gifyu.com/images/bQgvV.jpg")
+    .setAssetsLargeImage("https://cdn.discordapp.com/attachments/1381140647322583195/1552517992372371536/IMG-20260705-WA0110.jpg?ex=6ac85b8d&is=6ac70a0d&hm=88d96c39efaea194c38870eea66ecc9c749dab5ed6fb187c5db453e1f79a1412&")
     .addButton("Join Server", "https://discord.gg/CvbBtrpCc4");
           
   client.user.setActivity(r);
